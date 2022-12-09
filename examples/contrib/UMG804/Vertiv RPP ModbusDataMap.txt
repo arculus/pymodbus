@@ -1,0 +1,969 @@
+Index, Register(Num), Data Label, Unit, Scale, Access 
+1,30463(1), Columns of Breakers (DFW18_120_RPP_A1-3), , x1, RO
+2,30464(1), Number of Breakers (DFW18_120_RPP_A1-3), , x1, RO
+3,30465(1), Panel Main Voltage X-Y (DFW18_120_RPP_A1-3), VAC, x1, RO
+4,30466(1), Panel Main Voltage Y-Z (DFW18_120_RPP_A1-3), VAC, x1, RO
+5,30467(1), Panel Main Voltage Z-X (DFW18_120_RPP_A1-3), VAC, x1, RO
+6,30468(1), Panel Main Voltage X-N (DFW18_120_RPP_A1-3), VAC, x1, RO
+7,30469(1), Panel Main Voltage Y-N (DFW18_120_RPP_A1-3), VAC, x1, RO
+8,30470(1), Panel Main Voltage Z-N (DFW18_120_RPP_A1-3), VAC, x1, RO
+9,30471(1), Panel Main Current Ix (DFW18_120_RPP_A1-3), A AC, x1, RO
+10,30472(1), Panel Main Current Iy (DFW18_120_RPP_A1-3), A AC, x1, RO
+11,30473(1), Panel Main Current Iz (DFW18_120_RPP_A1-3), A AC, x1, RO
+12,30474(1), Panel Main Neutral Current (DFW18_120_RPP_A1-3), A AC, x1, RO
+13,30475(1), Panel Main Ground Current (DFW18_120_RPP_A1-3), A AC, x10, RO
+14,30476(1), Panel Main Output Power (kVA) (DFW18_120_RPP_A1-3), kVA, x1, RO
+15,30477(1), Panel Main Output Power (kW) (DFW18_120_RPP_A1-3), kW, x1, RO
+16,30478(2), Panel Main Output kW-Hrs (DFW18_120_RPP_A1-3), kWH, x10, RO
+17,30480(1), Panel Main Output Power Factor (DFW18_120_RPP_A1-3), , x100, RO
+18,30481(1), Panel Main Output Percent Load (DFW18_120_RPP_A1-3), %, x1, RO
+19,30482(1), Panel Main Voltage Vx THD (DFW18_120_RPP_A1-3), % THD, x10, RO
+20,30483(1), Panel Main Voltage Vy THD (DFW18_120_RPP_A1-3), % THD, x10, RO
+21,30484(1), Panel Main Voltage Vz THD (DFW18_120_RPP_A1-3), % THD, x10, RO
+22,30485(1), Panel Main Current Ix THD (DFW18_120_RPP_A1-3), % THD, x10, RO
+23,30486(1), Panel Main Current Iy THD (DFW18_120_RPP_A1-3), % THD, x10, RO
+24,30487(1), Panel Main Current Iz THD (DFW18_120_RPP_A1-3), % THD, x10, RO
+25,30488(1), Panel Main Current Ix Crest Factor (DFW18_120_RPP_A1-3), , x10, RO
+26,30489(1), Panel Main Current Iy Crest Factor (DFW18_120_RPP_A1-3), , x10, RO
+27,30490(1), Panel Main Current Iz Crest Factor (DFW18_120_RPP_A1-3), , x10, RO
+28,30587(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #01), , x1, RO
+29,30588(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #01), A AC, x10, RO
+30,30589(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #01), A AC, x10, RO
+31,30590(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #01), A AC, x10, RO
+32,30591(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #01), kW, x1000, RO
+33,30592(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #01), kWH, x1000, RO
+34,30594(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #01), , x100, RO
+35,30595(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #01), %, x1, RO
+36,30599(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #02), , x1, RO
+37,30600(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #02), A AC, x10, RO
+38,30601(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #02), A AC, x10, RO
+39,30602(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #02), A AC, x10, RO
+40,30603(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #02), kW, x1000, RO
+41,30604(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #02), kWH, x1000, RO
+42,30606(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #02), , x100, RO
+43,30607(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #02), %, x1, RO
+44,30611(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #03), , x1, RO
+45,30612(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #03), A AC, x10, RO
+46,30613(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #03), A AC, x10, RO
+47,30614(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #03), A AC, x10, RO
+48,30615(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #03), kW, x1000, RO
+49,30616(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #03), kWH, x1000, RO
+50,30618(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #03), , x100, RO
+51,30619(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #03), %, x1, RO
+52,30623(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #04), , x1, RO
+53,30624(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #04), A AC, x10, RO
+54,30625(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #04), A AC, x10, RO
+55,30626(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #04), A AC, x10, RO
+56,30627(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #04), kW, x1000, RO
+57,30628(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #04), kWH, x1000, RO
+58,30630(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #04), , x100, RO
+59,30631(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #04), %, x1, RO
+60,30635(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #05), , x1, RO
+61,30636(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #05), A AC, x10, RO
+62,30637(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #05), A AC, x10, RO
+63,30638(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #05), A AC, x10, RO
+64,30639(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #05), kW, x1000, RO
+65,30640(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #05), kWH, x1000, RO
+66,30642(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #05), , x100, RO
+67,30643(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #05), %, x1, RO
+68,30647(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #06), , x1, RO
+69,30648(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #06), A AC, x10, RO
+70,30649(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #06), A AC, x10, RO
+71,30650(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #06), A AC, x10, RO
+72,30651(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #06), kW, x1000, RO
+73,30652(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #06), kWH, x1000, RO
+74,30654(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #06), , x100, RO
+75,30655(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #06), %, x1, RO
+76,30659(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #07), , x1, RO
+77,30660(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #07), A AC, x10, RO
+78,30661(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #07), A AC, x10, RO
+79,30662(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #07), A AC, x10, RO
+80,30663(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #07), kW, x1000, RO
+81,30664(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #07), kWH, x1000, RO
+82,30666(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #07), , x100, RO
+83,30667(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #07), %, x1, RO
+84,30671(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #08), , x1, RO
+85,30672(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #08), A AC, x10, RO
+86,30673(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #08), A AC, x10, RO
+87,30674(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #08), A AC, x10, RO
+88,30675(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #08), kW, x1000, RO
+89,30676(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #08), kWH, x1000, RO
+90,30678(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #08), , x100, RO
+91,30679(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #08), %, x1, RO
+92,30683(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #09), , x1, RO
+93,30684(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #09), A AC, x10, RO
+94,30685(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #09), A AC, x10, RO
+95,30686(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #09), A AC, x10, RO
+96,30687(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #09), kW, x1000, RO
+97,30688(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #09), kWH, x1000, RO
+98,30690(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #09), , x100, RO
+99,30691(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #09), %, x1, RO
+100,30695(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #10), , x1, RO
+101,30696(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #10), A AC, x10, RO
+102,30697(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #10), A AC, x10, RO
+103,30698(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #10), A AC, x10, RO
+104,30699(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #10), kW, x1000, RO
+105,30700(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #10), kWH, x1000, RO
+106,30702(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #10), , x100, RO
+107,30703(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #10), %, x1, RO
+108,30707(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #11), , x1, RO
+109,30708(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #11), A AC, x10, RO
+110,30709(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #11), A AC, x10, RO
+111,30710(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #11), A AC, x10, RO
+112,30711(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #11), kW, x1000, RO
+113,30712(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #11), kWH, x1000, RO
+114,30714(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #11), , x100, RO
+115,30715(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #11), %, x1, RO
+116,30719(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #12), , x1, RO
+117,30720(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #12), A AC, x10, RO
+118,30721(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #12), A AC, x10, RO
+119,30722(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #12), A AC, x10, RO
+120,30723(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #12), kW, x1000, RO
+121,30724(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #12), kWH, x1000, RO
+122,30726(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #12), , x100, RO
+123,30727(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #12), %, x1, RO
+124,30731(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #13), , x1, RO
+125,30732(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #13), A AC, x10, RO
+126,30733(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #13), A AC, x10, RO
+127,30734(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #13), A AC, x10, RO
+128,30735(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #13), kW, x1000, RO
+129,30736(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #13), kWH, x1000, RO
+130,30738(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #13), , x100, RO
+131,30739(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #13), %, x1, RO
+132,30743(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #14), , x1, RO
+133,30744(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #14), A AC, x10, RO
+134,30745(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #14), A AC, x10, RO
+135,30746(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #14), A AC, x10, RO
+136,30747(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #14), kW, x1000, RO
+137,30748(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #14), kWH, x1000, RO
+138,30750(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #14), , x100, RO
+139,30751(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #14), %, x1, RO
+140,30755(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #15), , x1, RO
+141,30756(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #15), A AC, x10, RO
+142,30757(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #15), A AC, x10, RO
+143,30758(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #15), A AC, x10, RO
+144,30759(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #15), kW, x1000, RO
+145,30760(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #15), kWH, x1000, RO
+146,30762(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #15), , x100, RO
+147,30763(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #15), %, x1, RO
+148,30767(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #16), , x1, RO
+149,30768(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #16), A AC, x10, RO
+150,30769(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #16), A AC, x10, RO
+151,30770(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #16), A AC, x10, RO
+152,30771(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #16), kW, x1000, RO
+153,30772(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #16), kWH, x1000, RO
+154,30774(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #16), , x100, RO
+155,30775(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #16), %, x1, RO
+156,30779(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #17), , x1, RO
+157,30780(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #17), A AC, x10, RO
+158,30781(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #17), A AC, x10, RO
+159,30782(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #17), A AC, x10, RO
+160,30783(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #17), kW, x1000, RO
+161,30784(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #17), kWH, x1000, RO
+162,30786(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #17), , x100, RO
+163,30787(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #17), %, x1, RO
+164,30791(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #18), , x1, RO
+165,30792(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #18), A AC, x10, RO
+166,30793(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #18), A AC, x10, RO
+167,30794(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #18), A AC, x10, RO
+168,30795(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #18), kW, x1000, RO
+169,30796(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #18), kWH, x1000, RO
+170,30798(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #18), , x100, RO
+171,30799(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #18), %, x1, RO
+172,30803(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #19), , x1, RO
+173,30804(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #19), A AC, x10, RO
+174,30805(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #19), A AC, x10, RO
+175,30806(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #19), A AC, x10, RO
+176,30807(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #19), kW, x1000, RO
+177,30808(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #19), kWH, x1000, RO
+178,30810(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #19), , x100, RO
+179,30811(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #19), %, x1, RO
+180,30815(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #20), , x1, RO
+181,30816(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #20), A AC, x10, RO
+182,30817(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #20), A AC, x10, RO
+183,30818(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #20), A AC, x10, RO
+184,30819(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #20), kW, x1000, RO
+185,30820(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #20), kWH, x1000, RO
+186,30822(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #20), , x100, RO
+187,30823(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #20), %, x1, RO
+188,30827(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #21), , x1, RO
+189,30828(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #21), A AC, x10, RO
+190,30829(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #21), A AC, x10, RO
+191,30830(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #21), A AC, x10, RO
+192,30831(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #21), kW, x1000, RO
+193,30832(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #21), kWH, x1000, RO
+194,30834(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #21), , x100, RO
+195,30835(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #21), %, x1, RO
+196,30839(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #22), , x1, RO
+197,30840(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #22), A AC, x10, RO
+198,30841(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #22), A AC, x10, RO
+199,30842(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #22), A AC, x10, RO
+200,30843(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #22), kW, x1000, RO
+201,30844(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #22), kWH, x1000, RO
+202,30846(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #22), , x100, RO
+203,30847(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #22), %, x1, RO
+204,30851(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #23), , x1, RO
+205,30852(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #23), A AC, x10, RO
+206,30853(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #23), A AC, x10, RO
+207,30854(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #23), A AC, x10, RO
+208,30855(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #23), kW, x1000, RO
+209,30856(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #23), kWH, x1000, RO
+210,30858(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #23), , x100, RO
+211,30859(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #23), %, x1, RO
+212,30863(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #24), , x1, RO
+213,30864(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #24), A AC, x10, RO
+214,30865(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #24), A AC, x10, RO
+215,30866(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #24), A AC, x10, RO
+216,30867(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #24), kW, x1000, RO
+217,30868(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #24), kWH, x1000, RO
+218,30870(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #24), , x100, RO
+219,30871(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #24), %, x1, RO
+220,30875(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #25), , x1, RO
+221,30876(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #25), A AC, x10, RO
+222,30877(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #25), A AC, x10, RO
+223,30878(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #25), A AC, x10, RO
+224,30879(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #25), kW, x1000, RO
+225,30880(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #25), kWH, x1000, RO
+226,30882(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #25), , x100, RO
+227,30883(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #25), %, x1, RO
+228,30887(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #26), , x1, RO
+229,30888(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #26), A AC, x10, RO
+230,30889(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #26), A AC, x10, RO
+231,30890(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #26), A AC, x10, RO
+232,30891(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #26), kW, x1000, RO
+233,30892(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #26), kWH, x1000, RO
+234,30894(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #26), , x100, RO
+235,30895(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #26), %, x1, RO
+236,30899(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #27), , x1, RO
+237,30900(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #27), A AC, x10, RO
+238,30901(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #27), A AC, x10, RO
+239,30902(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #27), A AC, x10, RO
+240,30903(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #27), kW, x1000, RO
+241,30904(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #27), kWH, x1000, RO
+242,30906(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #27), , x100, RO
+243,30907(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #27), %, x1, RO
+244,30911(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #28), , x1, RO
+245,30912(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #28), A AC, x10, RO
+246,30913(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #28), A AC, x10, RO
+247,30914(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #28), A AC, x10, RO
+248,30915(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #28), kW, x1000, RO
+249,30916(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #28), kWH, x1000, RO
+250,30918(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #28), , x100, RO
+251,30919(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #28), %, x1, RO
+252,30923(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #29), , x1, RO
+253,30924(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #29), A AC, x10, RO
+254,30925(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #29), A AC, x10, RO
+255,30926(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #29), A AC, x10, RO
+256,30927(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #29), kW, x1000, RO
+257,30928(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #29), kWH, x1000, RO
+258,30930(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #29), , x100, RO
+259,30931(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #29), %, x1, RO
+260,30935(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #30), , x1, RO
+261,30936(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #30), A AC, x10, RO
+262,30937(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #30), A AC, x10, RO
+263,30938(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #30), A AC, x10, RO
+264,30939(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #30), kW, x1000, RO
+265,30940(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #30), kWH, x1000, RO
+266,30942(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #30), , x100, RO
+267,30943(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #30), %, x1, RO
+268,30947(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #31), , x1, RO
+269,30948(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #31), A AC, x10, RO
+270,30949(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #31), A AC, x10, RO
+271,30950(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #31), A AC, x10, RO
+272,30951(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #31), kW, x1000, RO
+273,30952(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #31), kWH, x1000, RO
+274,30954(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #31), , x100, RO
+275,30955(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #31), %, x1, RO
+276,30959(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #32), , x1, RO
+277,30960(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #32), A AC, x10, RO
+278,30961(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #32), A AC, x10, RO
+279,30962(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #32), A AC, x10, RO
+280,30963(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #32), kW, x1000, RO
+281,30964(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #32), kWH, x1000, RO
+282,30966(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #32), , x100, RO
+283,30967(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #32), %, x1, RO
+284,30971(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #33), , x1, RO
+285,30972(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #33), A AC, x10, RO
+286,30973(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #33), A AC, x10, RO
+287,30974(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #33), A AC, x10, RO
+288,30975(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #33), kW, x1000, RO
+289,30976(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #33), kWH, x1000, RO
+290,30978(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #33), , x100, RO
+291,30979(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #33), %, x1, RO
+292,30983(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #34), , x1, RO
+293,30984(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #34), A AC, x10, RO
+294,30985(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #34), A AC, x10, RO
+295,30986(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #34), A AC, x10, RO
+296,30987(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #34), kW, x1000, RO
+297,30988(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #34), kWH, x1000, RO
+298,30990(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #34), , x100, RO
+299,30991(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #34), %, x1, RO
+300,30995(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #35), , x1, RO
+301,30996(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #35), A AC, x10, RO
+302,30997(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #35), A AC, x10, RO
+303,30998(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #35), A AC, x10, RO
+304,30999(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #35), kW, x1000, RO
+305,31000(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #35), kWH, x1000, RO
+306,31002(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #35), , x100, RO
+307,31003(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #35), %, x1, RO
+308,31007(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #36), , x1, RO
+309,31008(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #36), A AC, x10, RO
+310,31009(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #36), A AC, x10, RO
+311,31010(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #36), A AC, x10, RO
+312,31011(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #36), kW, x1000, RO
+313,31012(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #36), kWH, x1000, RO
+314,31014(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #36), , x100, RO
+315,31015(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #36), %, x1, RO
+316,31019(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #37), , x1, RO
+317,31020(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #37), A AC, x10, RO
+318,31021(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #37), A AC, x10, RO
+319,31022(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #37), A AC, x10, RO
+320,31023(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #37), kW, x1000, RO
+321,31024(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #37), kWH, x1000, RO
+322,31026(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #37), , x100, RO
+323,31027(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #37), %, x1, RO
+324,31031(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #38), , x1, RO
+325,31032(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #38), A AC, x10, RO
+326,31033(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #38), A AC, x10, RO
+327,31034(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #38), A AC, x10, RO
+328,31035(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #38), kW, x1000, RO
+329,31036(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #38), kWH, x1000, RO
+330,31038(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #38), , x100, RO
+331,31039(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #38), %, x1, RO
+332,31043(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #39), , x1, RO
+333,31044(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #39), A AC, x10, RO
+334,31045(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #39), A AC, x10, RO
+335,31046(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #39), A AC, x10, RO
+336,31047(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #39), kW, x1000, RO
+337,31048(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #39), kWH, x1000, RO
+338,31050(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #39), , x100, RO
+339,31051(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #39), %, x1, RO
+340,31055(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #40), , x1, RO
+341,31056(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #40), A AC, x10, RO
+342,31057(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #40), A AC, x10, RO
+343,31058(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #40), A AC, x10, RO
+344,31059(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #40), kW, x1000, RO
+345,31060(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #40), kWH, x1000, RO
+346,31062(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #40), , x100, RO
+347,31063(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #40), %, x1, RO
+348,31067(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #41), , x1, RO
+349,31068(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #41), A AC, x10, RO
+350,31069(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #41), A AC, x10, RO
+351,31070(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #41), A AC, x10, RO
+352,31071(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #41), kW, x1000, RO
+353,31072(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #41), kWH, x1000, RO
+354,31074(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #41), , x100, RO
+355,31075(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #41), %, x1, RO
+356,31079(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #42), , x1, RO
+357,31080(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #42), A AC, x10, RO
+358,31081(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #42), A AC, x10, RO
+359,31082(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #42), A AC, x10, RO
+360,31083(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #42), kW, x1000, RO
+361,31084(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #42), kWH, x1000, RO
+362,31086(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #42), , x100, RO
+363,31087(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #42), %, x1, RO
+364,31091(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #43), , x1, RO
+365,31092(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #43), A AC, x10, RO
+366,31093(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #43), A AC, x10, RO
+367,31094(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #43), A AC, x10, RO
+368,31095(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #43), kW, x1000, RO
+369,31096(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #43), kWH, x1000, RO
+370,31098(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #43), , x100, RO
+371,31099(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #43), %, x1, RO
+372,31103(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #44), , x1, RO
+373,31104(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #44), A AC, x10, RO
+374,31105(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #44), A AC, x10, RO
+375,31106(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #44), A AC, x10, RO
+376,31107(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #44), kW, x1000, RO
+377,31108(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #44), kWH, x1000, RO
+378,31110(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #44), , x100, RO
+379,31111(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #44), %, x1, RO
+380,31115(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #45), , x1, RO
+381,31116(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #45), A AC, x10, RO
+382,31117(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #45), A AC, x10, RO
+383,31118(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #45), A AC, x10, RO
+384,31119(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #45), kW, x1000, RO
+385,31120(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #45), kWH, x1000, RO
+386,31122(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #45), , x100, RO
+387,31123(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #45), %, x1, RO
+388,31127(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #46), , x1, RO
+389,31128(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #46), A AC, x10, RO
+390,31129(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #46), A AC, x10, RO
+391,31130(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #46), A AC, x10, RO
+392,31131(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #46), kW, x1000, RO
+393,31132(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #46), kWH, x1000, RO
+394,31134(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #46), , x100, RO
+395,31135(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #46), %, x1, RO
+396,31139(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #47), , x1, RO
+397,31140(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #47), A AC, x10, RO
+398,31141(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #47), A AC, x10, RO
+399,31142(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #47), A AC, x10, RO
+400,31143(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #47), kW, x1000, RO
+401,31144(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #47), kWH, x1000, RO
+402,31146(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #47), , x100, RO
+403,31147(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #47), %, x1, RO
+404,31151(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #48), , x1, RO
+405,31152(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #48), A AC, x10, RO
+406,31153(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #48), A AC, x10, RO
+407,31154(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #48), A AC, x10, RO
+408,31155(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #48), kW, x1000, RO
+409,31156(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #48), kWH, x1000, RO
+410,31158(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #48), , x100, RO
+411,31159(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #48), %, x1, RO
+412,31163(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #49), , x1, RO
+413,31164(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #49), A AC, x10, RO
+414,31165(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #49), A AC, x10, RO
+415,31166(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #49), A AC, x10, RO
+416,31167(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #49), kW, x1000, RO
+417,31168(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #49), kWH, x1000, RO
+418,31170(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #49), , x100, RO
+419,31171(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #49), %, x1, RO
+420,31175(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #50), , x1, RO
+421,31176(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #50), A AC, x10, RO
+422,31177(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #50), A AC, x10, RO
+423,31178(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #50), A AC, x10, RO
+424,31179(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #50), kW, x1000, RO
+425,31180(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #50), kWH, x1000, RO
+426,31182(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #50), , x100, RO
+427,31183(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #50), %, x1, RO
+428,31187(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #51), , x1, RO
+429,31188(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #51), A AC, x10, RO
+430,31189(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #51), A AC, x10, RO
+431,31190(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #51), A AC, x10, RO
+432,31191(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #51), kW, x1000, RO
+433,31192(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #51), kWH, x1000, RO
+434,31194(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #51), , x100, RO
+435,31195(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #51), %, x1, RO
+436,31199(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #52), , x1, RO
+437,31200(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #52), A AC, x10, RO
+438,31201(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #52), A AC, x10, RO
+439,31202(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #52), A AC, x10, RO
+440,31203(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #52), kW, x1000, RO
+441,31204(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #52), kWH, x1000, RO
+442,31206(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #52), , x100, RO
+443,31207(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #52), %, x1, RO
+444,31211(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #53), , x1, RO
+445,31212(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #53), A AC, x10, RO
+446,31213(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #53), A AC, x10, RO
+447,31214(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #53), A AC, x10, RO
+448,31215(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #53), kW, x1000, RO
+449,31216(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #53), kWH, x1000, RO
+450,31218(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #53), , x100, RO
+451,31219(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #53), %, x1, RO
+452,31223(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #54), , x1, RO
+453,31224(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #54), A AC, x10, RO
+454,31225(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #54), A AC, x10, RO
+455,31226(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #54), A AC, x10, RO
+456,31227(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #54), kW, x1000, RO
+457,31228(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #54), kWH, x1000, RO
+458,31230(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #54), , x100, RO
+459,31231(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #54), %, x1, RO
+460,31235(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #55), , x1, RO
+461,31236(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #55), A AC, x10, RO
+462,31237(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #55), A AC, x10, RO
+463,31238(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #55), A AC, x10, RO
+464,31239(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #55), kW, x1000, RO
+465,31240(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #55), kWH, x1000, RO
+466,31242(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #55), , x100, RO
+467,31243(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #55), %, x1, RO
+468,31247(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #56), , x1, RO
+469,31248(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #56), A AC, x10, RO
+470,31249(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #56), A AC, x10, RO
+471,31250(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #56), A AC, x10, RO
+472,31251(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #56), kW, x1000, RO
+473,31252(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #56), kWH, x1000, RO
+474,31254(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #56), , x100, RO
+475,31255(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #56), %, x1, RO
+476,31259(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #57), , x1, RO
+477,31260(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #57), A AC, x10, RO
+478,31261(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #57), A AC, x10, RO
+479,31262(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #57), A AC, x10, RO
+480,31263(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #57), kW, x1000, RO
+481,31264(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #57), kWH, x1000, RO
+482,31266(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #57), , x100, RO
+483,31267(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #57), %, x1, RO
+484,31271(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #58), , x1, RO
+485,31272(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #58), A AC, x10, RO
+486,31273(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #58), A AC, x10, RO
+487,31274(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #58), A AC, x10, RO
+488,31275(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #58), kW, x1000, RO
+489,31276(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #58), kWH, x1000, RO
+490,31278(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #58), , x100, RO
+491,31279(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #58), %, x1, RO
+492,31283(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #59), , x1, RO
+493,31284(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #59), A AC, x10, RO
+494,31285(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #59), A AC, x10, RO
+495,31286(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #59), A AC, x10, RO
+496,31287(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #59), kW, x1000, RO
+497,31288(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #59), kWH, x1000, RO
+498,31290(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #59), , x100, RO
+499,31291(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #59), %, x1, RO
+500,31295(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #60), , x1, RO
+501,31296(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #60), A AC, x10, RO
+502,31297(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #60), A AC, x10, RO
+503,31298(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #60), A AC, x10, RO
+504,31299(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #60), kW, x1000, RO
+505,31300(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #60), kWH, x1000, RO
+506,31302(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #60), , x100, RO
+507,31303(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #60), %, x1, RO
+508,31307(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #61), , x1, RO
+509,31308(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #61), A AC, x10, RO
+510,31309(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #61), A AC, x10, RO
+511,31310(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #61), A AC, x10, RO
+512,31311(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #61), kW, x1000, RO
+513,31312(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #61), kWH, x1000, RO
+514,31314(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #61), , x100, RO
+515,31315(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #61), %, x1, RO
+516,31319(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #62), , x1, RO
+517,31320(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #62), A AC, x10, RO
+518,31321(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #62), A AC, x10, RO
+519,31322(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #62), A AC, x10, RO
+520,31323(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #62), kW, x1000, RO
+521,31324(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #62), kWH, x1000, RO
+522,31326(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #62), , x100, RO
+523,31327(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #62), %, x1, RO
+524,31331(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #63), , x1, RO
+525,31332(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #63), A AC, x10, RO
+526,31333(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #63), A AC, x10, RO
+527,31334(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #63), A AC, x10, RO
+528,31335(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #63), kW, x1000, RO
+529,31336(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #63), kWH, x1000, RO
+530,31338(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #63), , x100, RO
+531,31339(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #63), %, x1, RO
+532,31343(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #64), , x1, RO
+533,31344(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #64), A AC, x10, RO
+534,31345(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #64), A AC, x10, RO
+535,31346(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #64), A AC, x10, RO
+536,31347(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #64), kW, x1000, RO
+537,31348(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #64), kWH, x1000, RO
+538,31350(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #64), , x100, RO
+539,31351(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #64), %, x1, RO
+540,31355(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #65), , x1, RO
+541,31356(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #65), A AC, x10, RO
+542,31357(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #65), A AC, x10, RO
+543,31358(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #65), A AC, x10, RO
+544,31359(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #65), kW, x1000, RO
+545,31360(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #65), kWH, x1000, RO
+546,31362(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #65), , x100, RO
+547,31363(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #65), %, x1, RO
+548,31367(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #66), , x1, RO
+549,31368(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #66), A AC, x10, RO
+550,31369(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #66), A AC, x10, RO
+551,31370(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #66), A AC, x10, RO
+552,31371(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #66), kW, x1000, RO
+553,31372(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #66), kWH, x1000, RO
+554,31374(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #66), , x100, RO
+555,31375(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #66), %, x1, RO
+556,31379(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #67), , x1, RO
+557,31380(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #67), A AC, x10, RO
+558,31381(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #67), A AC, x10, RO
+559,31382(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #67), A AC, x10, RO
+560,31383(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #67), kW, x1000, RO
+561,31384(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #67), kWH, x1000, RO
+562,31386(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #67), , x100, RO
+563,31387(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #67), %, x1, RO
+564,31391(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #68), , x1, RO
+565,31392(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #68), A AC, x10, RO
+566,31393(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #68), A AC, x10, RO
+567,31394(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #68), A AC, x10, RO
+568,31395(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #68), kW, x1000, RO
+569,31396(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #68), kWH, x1000, RO
+570,31398(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #68), , x100, RO
+571,31399(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #68), %, x1, RO
+572,31403(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #69), , x1, RO
+573,31404(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #69), A AC, x10, RO
+574,31405(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #69), A AC, x10, RO
+575,31406(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #69), A AC, x10, RO
+576,31407(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #69), kW, x1000, RO
+577,31408(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #69), kWH, x1000, RO
+578,31410(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #69), , x100, RO
+579,31411(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #69), %, x1, RO
+580,31415(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #70), , x1, RO
+581,31416(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #70), A AC, x10, RO
+582,31417(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #70), A AC, x10, RO
+583,31418(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #70), A AC, x10, RO
+584,31419(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #70), kW, x1000, RO
+585,31420(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #70), kWH, x1000, RO
+586,31422(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #70), , x100, RO
+587,31423(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #70), %, x1, RO
+588,31427(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #71), , x1, RO
+589,31428(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #71), A AC, x10, RO
+590,31429(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #71), A AC, x10, RO
+591,31430(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #71), A AC, x10, RO
+592,31431(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #71), kW, x1000, RO
+593,31432(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #71), kWH, x1000, RO
+594,31434(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #71), , x100, RO
+595,31435(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #71), %, x1, RO
+596,31439(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #72), , x1, RO
+597,31440(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #72), A AC, x10, RO
+598,31441(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #72), A AC, x10, RO
+599,31442(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #72), A AC, x10, RO
+600,31443(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #72), kW, x1000, RO
+601,31444(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #72), kWH, x1000, RO
+602,31446(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #72), , x100, RO
+603,31447(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #72), %, x1, RO
+604,31451(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #73), , x1, RO
+605,31452(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #73), A AC, x10, RO
+606,31453(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #73), A AC, x10, RO
+607,31454(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #73), A AC, x10, RO
+608,31455(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #73), kW, x1000, RO
+609,31456(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #73), kWH, x1000, RO
+610,31458(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #73), , x100, RO
+611,31459(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #73), %, x1, RO
+612,31463(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #74), , x1, RO
+613,31464(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #74), A AC, x10, RO
+614,31465(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #74), A AC, x10, RO
+615,31466(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #74), A AC, x10, RO
+616,31467(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #74), kW, x1000, RO
+617,31468(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #74), kWH, x1000, RO
+618,31470(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #74), , x100, RO
+619,31471(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #74), %, x1, RO
+620,31475(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #75), , x1, RO
+621,31476(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #75), A AC, x10, RO
+622,31477(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #75), A AC, x10, RO
+623,31478(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #75), A AC, x10, RO
+624,31479(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #75), kW, x1000, RO
+625,31480(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #75), kWH, x1000, RO
+626,31482(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #75), , x100, RO
+627,31483(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #75), %, x1, RO
+628,31487(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #76), , x1, RO
+629,31488(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #76), A AC, x10, RO
+630,31489(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #76), A AC, x10, RO
+631,31490(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #76), A AC, x10, RO
+632,31491(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #76), kW, x1000, RO
+633,31492(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #76), kWH, x1000, RO
+634,31494(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #76), , x100, RO
+635,31495(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #76), %, x1, RO
+636,31499(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #77), , x1, RO
+637,31500(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #77), A AC, x10, RO
+638,31501(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #77), A AC, x10, RO
+639,31502(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #77), A AC, x10, RO
+640,31503(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #77), kW, x1000, RO
+641,31504(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #77), kWH, x1000, RO
+642,31506(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #77), , x100, RO
+643,31507(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #77), %, x1, RO
+644,31511(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #78), , x1, RO
+645,31512(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #78), A AC, x10, RO
+646,31513(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #78), A AC, x10, RO
+647,31514(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #78), A AC, x10, RO
+648,31515(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #78), kW, x1000, RO
+649,31516(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #78), kWH, x1000, RO
+650,31518(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #78), , x100, RO
+651,31519(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #78), %, x1, RO
+652,31523(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #79), , x1, RO
+653,31524(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #79), A AC, x10, RO
+654,31525(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #79), A AC, x10, RO
+655,31526(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #79), A AC, x10, RO
+656,31527(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #79), kW, x1000, RO
+657,31528(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #79), kWH, x1000, RO
+658,31530(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #79), , x100, RO
+659,31531(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #79), %, x1, RO
+660,31535(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #80), , x1, RO
+661,31536(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #80), A AC, x10, RO
+662,31537(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #80), A AC, x10, RO
+663,31538(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #80), A AC, x10, RO
+664,31539(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #80), kW, x1000, RO
+665,31540(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #80), kWH, x1000, RO
+666,31542(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #80), , x100, RO
+667,31543(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #80), %, x1, RO
+668,31547(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #81), , x1, RO
+669,31548(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #81), A AC, x10, RO
+670,31549(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #81), A AC, x10, RO
+671,31550(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #81), A AC, x10, RO
+672,31551(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #81), kW, x1000, RO
+673,31552(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #81), kWH, x1000, RO
+674,31554(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #81), , x100, RO
+675,31555(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #81), %, x1, RO
+676,31559(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #82), , x1, RO
+677,31560(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #82), A AC, x10, RO
+678,31561(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #82), A AC, x10, RO
+679,31562(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #82), A AC, x10, RO
+680,31563(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #82), kW, x1000, RO
+681,31564(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #82), kWH, x1000, RO
+682,31566(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #82), , x100, RO
+683,31567(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #82), %, x1, RO
+684,31571(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #83), , x1, RO
+685,31572(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #83), A AC, x10, RO
+686,31573(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #83), A AC, x10, RO
+687,31574(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #83), A AC, x10, RO
+688,31575(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #83), kW, x1000, RO
+689,31576(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #83), kWH, x1000, RO
+690,31578(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #83), , x100, RO
+691,31579(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #83), %, x1, RO
+692,31583(1), Breaker position (DFW18_120_RPP_A1-3->BREAKER #84), , x1, RO
+693,31584(1), Branch Current Phase 1 (DFW18_120_RPP_A1-3->BREAKER #84), A AC, x10, RO
+694,31585(1), Branch Current Phase 2 (DFW18_120_RPP_A1-3->BREAKER #84), A AC, x10, RO
+695,31586(1), Branch Current Phase 3 (DFW18_120_RPP_A1-3->BREAKER #84), A AC, x10, RO
+696,31587(1), Branch Output Power (W) (DFW18_120_RPP_A1-3->BREAKER #84), kW, x1000, RO
+697,31588(2), Output kW-Hrs (DFW18_120_RPP_A1-3->BREAKER #84), kWH, x1000, RO
+698,31590(1), Branch Output Power Factor (DFW18_120_RPP_A1-3->BREAKER #84), , x100, RO
+699,31591(1), Branch Output Percent Load (DFW18_120_RPP_A1-3->BREAKER #84), %, x1, RO
+700,35899(1), System Status, , x1, RO
+701,39998(2), System Date and Time, , x1, RO
+702,40478(2), Panel Main Output kW-Hrs (DFW18_120_RPP_A1-3), kWH, x10, WO
+703,45900(1), System Event Acknowledge/Reset, , x1, WO
+704,49998(2), System Date and Time, , x1, WO
+705,10065(1), Panel Summary Alarm (DFW18_120_RPP_A1-3)
+706,10066(1), Panel Overvoltage (DFW18_120_RPP_A1-3)
+707,10067(1), Panel Undervoltage (DFW18_120_RPP_A1-3)
+708,10068(1), Panel Phase Overcurrent (DFW18_120_RPP_A1-3)
+709,10069(1), Panel Phase Overcurrent (DFW18_120_RPP_A1-3)
+710,10070(1), Panel Neutral Overcurrent (DFW18_120_RPP_A1-3)
+711,10071(1), Panel Ground Overcurrent (DFW18_120_RPP_A1-3)
+712,10133(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #01)
+713,10134(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #01)
+714,10135(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #01)
+715,10146(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #02)
+716,10147(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #02)
+717,10148(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #02)
+718,10159(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #03)
+719,10160(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #03)
+720,10161(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #03)
+721,10172(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #04)
+722,10173(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #04)
+723,10174(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #04)
+724,10185(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #05)
+725,10186(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #05)
+726,10187(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #05)
+727,10198(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #06)
+728,10199(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #06)
+729,10200(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #06)
+730,10211(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #07)
+731,10212(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #07)
+732,10213(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #07)
+733,10224(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #08)
+734,10225(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #08)
+735,10226(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #08)
+736,10237(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #09)
+737,10238(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #09)
+738,10239(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #09)
+739,10250(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #10)
+740,10251(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #10)
+741,10252(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #10)
+742,10263(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #11)
+743,10264(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #11)
+744,10265(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #11)
+745,10276(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #12)
+746,10277(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #12)
+747,10278(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #12)
+748,10289(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #13)
+749,10290(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #13)
+750,10291(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #13)
+751,10302(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #14)
+752,10303(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #14)
+753,10304(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #14)
+754,10315(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #15)
+755,10316(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #15)
+756,10317(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #15)
+757,10328(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #16)
+758,10329(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #16)
+759,10330(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #16)
+760,10341(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #17)
+761,10342(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #17)
+762,10343(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #17)
+763,10354(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #18)
+764,10355(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #18)
+765,10356(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #18)
+766,10367(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #19)
+767,10368(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #19)
+768,10369(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #19)
+769,10380(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #20)
+770,10381(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #20)
+771,10382(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #20)
+772,10393(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #21)
+773,10394(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #21)
+774,10395(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #21)
+775,10406(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #22)
+776,10407(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #22)
+777,10408(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #22)
+778,10419(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #23)
+779,10420(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #23)
+780,10421(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #23)
+781,10432(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #24)
+782,10433(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #24)
+783,10434(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #24)
+784,10445(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #25)
+785,10446(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #25)
+786,10447(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #25)
+787,10458(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #26)
+788,10459(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #26)
+789,10460(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #26)
+790,10471(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #27)
+791,10472(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #27)
+792,10473(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #27)
+793,10484(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #28)
+794,10485(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #28)
+795,10486(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #28)
+796,10497(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #29)
+797,10498(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #29)
+798,10499(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #29)
+799,10510(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #30)
+800,10511(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #30)
+801,10512(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #30)
+802,10523(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #31)
+803,10524(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #31)
+804,10525(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #31)
+805,10536(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #32)
+806,10537(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #32)
+807,10538(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #32)
+808,10549(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #33)
+809,10550(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #33)
+810,10551(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #33)
+811,10562(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #34)
+812,10563(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #34)
+813,10564(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #34)
+814,10575(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #35)
+815,10576(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #35)
+816,10577(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #35)
+817,10588(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #36)
+818,10589(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #36)
+819,10590(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #36)
+820,10601(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #37)
+821,10602(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #37)
+822,10603(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #37)
+823,10614(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #38)
+824,10615(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #38)
+825,10616(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #38)
+826,10627(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #39)
+827,10628(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #39)
+828,10629(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #39)
+829,10640(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #40)
+830,10641(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #40)
+831,10642(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #40)
+832,10653(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #41)
+833,10654(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #41)
+834,10655(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #41)
+835,10666(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #42)
+836,10667(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #42)
+837,10668(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #42)
+838,10679(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #43)
+839,10680(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #43)
+840,10681(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #43)
+841,10692(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #44)
+842,10693(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #44)
+843,10694(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #44)
+844,10705(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #45)
+845,10706(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #45)
+846,10707(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #45)
+847,10718(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #46)
+848,10719(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #46)
+849,10720(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #46)
+850,10731(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #47)
+851,10732(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #47)
+852,10733(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #47)
+853,10744(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #48)
+854,10745(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #48)
+855,10746(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #48)
+856,10757(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #49)
+857,10758(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #49)
+858,10759(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #49)
+859,10770(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #50)
+860,10771(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #50)
+861,10772(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #50)
+862,10783(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #51)
+863,10784(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #51)
+864,10785(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #51)
+865,10796(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #52)
+866,10797(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #52)
+867,10798(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #52)
+868,10809(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #53)
+869,10810(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #53)
+870,10811(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #53)
+871,10822(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #54)
+872,10823(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #54)
+873,10824(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #54)
+874,10835(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #55)
+875,10836(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #55)
+876,10837(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #55)
+877,10848(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #56)
+878,10849(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #56)
+879,10850(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #56)
+880,10861(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #57)
+881,10862(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #57)
+882,10863(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #57)
+883,10874(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #58)
+884,10875(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #58)
+885,10876(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #58)
+886,10887(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #59)
+887,10888(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #59)
+888,10889(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #59)
+889,10900(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #60)
+890,10901(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #60)
+891,10902(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #60)
+892,10913(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #61)
+893,10914(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #61)
+894,10915(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #61)
+895,10926(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #62)
+896,10927(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #62)
+897,10928(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #62)
+898,10939(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #63)
+899,10940(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #63)
+900,10941(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #63)
+901,10952(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #64)
+902,10953(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #64)
+903,10954(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #64)
+904,10965(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #65)
+905,10966(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #65)
+906,10967(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #65)
+907,10978(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #66)
+908,10979(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #66)
+909,10980(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #66)
+910,10991(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #67)
+911,10992(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #67)
+912,10993(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #67)
+913,11004(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #68)
+914,11005(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #68)
+915,11006(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #68)
+916,11017(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #69)
+917,11018(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #69)
+918,11019(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #69)
+919,11030(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #70)
+920,11031(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #70)
+921,11032(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #70)
+922,11043(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #71)
+923,11044(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #71)
+924,11045(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #71)
+925,11056(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #72)
+926,11057(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #72)
+927,11058(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #72)
+928,11069(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #73)
+929,11070(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #73)
+930,11071(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #73)
+931,11082(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #74)
+932,11083(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #74)
+933,11084(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #74)
+934,11095(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #75)
+935,11096(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #75)
+936,11097(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #75)
+937,11108(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #76)
+938,11109(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #76)
+939,11110(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #76)
+940,11121(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #77)
+941,11122(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #77)
+942,11123(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #77)
+943,11134(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #78)
+944,11135(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #78)
+945,11136(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #78)
+946,11147(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #79)
+947,11148(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #79)
+948,11149(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #79)
+949,11160(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #80)
+950,11161(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #80)
+951,11162(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #80)
+952,11173(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #81)
+953,11174(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #81)
+954,11175(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #81)
+955,11186(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #82)
+956,11187(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #82)
+957,11188(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #82)
+958,11199(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #83)
+959,11200(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #83)
+960,11201(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #83)
+961,11212(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #84)
+962,11213(1), Branch Overcurrent (DFW18_120_RPP_A1-3->BREAKER #84)
+963,11214(1), Branch Undercurrent Warning (DFW18_120_RPP_A1-3->BREAKER #84)
+964,15507(1), System Shutdown - EPO
+965,15508(1), System Shutdown - REPO
+966,15509(1), Transformer Overtemperature Shutdown
+967,15510(1), Transformer Overtemperature
+968,15511(1), Equipment Temperature Sensor Fail

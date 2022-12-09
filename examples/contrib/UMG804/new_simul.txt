@@ -1,0 +1,19 @@
+Vertiv / Liebert RPP device
+
+For the new simulation I would like to give you 2 options:
+
+A simple option, where I just make a new configuration reusing the simulator as it is, installing it to run in parallel (different port).
+
+An advanced option (includes the simple option):
+Enhance the simulator with:
+- new mode (configurable), making the registers return the register number as value. This option makes it very easy for testers to control that the correct register is read
+- Web page / REST-API allowing testers to set the value of single registers. This option allows testers have the web page open, alongside the app, change a value and control the effect in the app.
+This will be available for both simulators!
+
+The price would be:
+- Simple option: 800,- EUR
+- Advanced option: 1.500,- EUR
+Down payment: 500,- EUR
+
+The prices include continued support and help in the same manner as I have done until now.
+
