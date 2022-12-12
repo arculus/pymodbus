@@ -52,6 +52,7 @@ class Label:  # pylint: disable=too-many-instance-attributes
     method: str = "method"
     next: str = "next"
     random: str = "random"
+    register: str = "register"
     repeat: str = "repeat"
     reset: str = "reset"
     setup: str = "setup"
@@ -472,6 +473,7 @@ class ModbusSimulatorContext:
         """Initialize."""
         builtin_actions = {
             Label.increment: self.action_increment,
+            Label.register: self.action_register,
             Label.random: self.action_random,
             Label.reset: self.action_reset,
             Label.timestamp: self.action_timestamp,
@@ -575,6 +577,25 @@ class ModbusSimulatorContext:
     # --------------------------------------------
 
     @classmethod
+    def action_register(cls, registers, inx, cell):
+        """Update with register number.
+
+        :meta private:
+        """
+        if cell.type == CELL_TYPE_BIT:
+            registers[inx].value = inx
+        elif cell.type == CELL_TYPE_FLOAT32:
+            regs = cls.build_registers_from_value(float(inx), False)
+            registers[inx].value = regs[0]
+            registers[inx + 1].value = regs[1]
+        elif cell.type == CELL_TYPE_UINT16:
+            registers[inx].value = inx
+        elif cell.type == CELL_TYPE_UINT32:
+            regs = cls.build_registers_from_value(inx, True)
+            registers[inx].value = regs[0]
+            registers[inx + 1].value = regs[1]
+
+    @classmethod
     def action_random(cls, registers, inx, cell):
         """Update with random value.
 
@@ -583,13 +604,15 @@ class ModbusSimulatorContext:
         if cell.type == CELL_TYPE_BIT:
             registers[inx].value = random.randint(0, 65536)
         elif cell.type == CELL_TYPE_FLOAT32:
-            regs = cls.build_registers_from_value(random.uniform(0.0, 100.0), False)
+            regs = cls.build_registers_from_value(random.uniform(0.0, 65000.0), False)
             registers[inx].value = regs[0]
             registers[inx + 1].value = regs[1]
         elif cell.type == CELL_TYPE_UINT16:
             registers[inx].value = random.randint(0, 65536)
         elif cell.type == CELL_TYPE_UINT32:
-            regs = cls.build_registers_from_value(random.uniform(0.0, 100.0), True)
+            regs = cls.build_registers_from_value(
+                int(random.uniform(0.0, 65000.0)), True
+            )
             registers[inx].value = regs[0]
             registers[inx + 1].value = regs[1]
 

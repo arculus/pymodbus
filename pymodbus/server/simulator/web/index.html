@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Modbus simulator.</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <style rel="stylesheet" type="text/css" media="screen">
+    legend {
+        font-size:  1.6em;
+        font-weight:  bold;
+        position:  relative;
+        padding: 5px 5px;
+        top:  -.1em;
+    }
+    input[type=submit] {
+      background-color: lightblue;
+      padding: 5px 5px;
+      font-size:  1.0em;
+    }
+    fieldset
+    {
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+<h1>Pymodbus simulator</h1>
+<fieldset>
+  <legend>Registers</legend>
+  <form action="/api/data" method="post">
+    <label><b>Registers</b> (list/range):</label>
+    <input type="text" name="function_code"><br>
+    <fieldset>
+      <legend>Monitor</legend>
+      <input type="submit" value="Start" name="register_monitor">
+    </fieldset>
+    <fieldset>
+      <legend>Edit</legend>
+      <label><b>Register type:</b></label>
+      <select name="register_type">
+        <option value="BITS">bits</option>
+        <option value="UINT16">UINT16</option>
+        <option value="UINT32">UINT32</option>
+        <option value="FLOAT32">FLOAT32</option>
+        <option value="INVALID">INVALID</option>
+      </select><br>
+      <label><b>Writeable:</b></label>
+      <input type="checkbox" value="" name="register_write"><br>
+      <label><b>Value:</b></label>
+      <input type="number" value="" name="register_value"><br>
+      <input type="submit" value="Edit" name="register_edit">
+    </fieldset>
+  </form>
+</fieldset><br>
+<fieldset>
+  <legend>Requests (function codes)</legend>
+  <form action="/api/request" method="post">
+    <label><b>Function codes</b> (hex list/range):</label>
+    <input type="text" name="function_code"><br>
+    <fieldset>
+      <legend>Monitor</legend>
+      <input type="submit" value="Monitor" name="function_code_monitor">
+    </fieldset>
+    <fieldset>
+      <legend>Set response</legend>
+        <label><b>Response type:</b></label>
+          <select name="response_type">
+            <option value="normal" selected>normal</option>
+            <option value="error">error</option>
+            <option value="delayed">delayed</option>
+            <option value="empty">empty</option>
+            <option value="stray">stray</option>
+        </select><br>
+        <label><b>Delay:</b></label>
+        <input type="number" value=0 id="delay_by" name="delay_by">
+        <label>seconds</label><br>
+        <label><b>Data len:</b></label>
+        <input type="number" value=0 id="data_len" name="data_len"><br>
+        <label><b>Error code:</b></label>
+        <select name="error_code">
+          <option value=1 selected>IllegalFunction (0x01)</option>
+          <option value=2>IllegalAddress (0x02)</option>
+          <option value=3>IllegalValue (0x03)</option>
+          <option value=4>SlaveFailure (0x04)</option>
+          <option value=5>Acknowledge (0x05)</option>
+          <option value=6>SlaveBusy (0x06)</option>
+          <option value=8>MemoryParityError (0x08)</option>
+          <option value=10>GatewayPathUnavailable (0x0A)</option>
+          <option value=11>GatewayNoResponse (0x0B)</option>
+        </select><br>
+        <label><b>Clear after:</b></label>
+        <input type="number" value=1 id="clear_after" name="clear_after">
+        <label>requests</label><br>
+        <input type="submit" value="Set" name="function_code_set_response">
+    </fieldset>
+  </form>
+</fieldset><br>
+<fieldset>
+  <legend>Server</legend>
+    <fieldset>
+      <legend>Log</legend>
+      <form action="/api" method="post">
+        <input type="submit" value="Monitor" name="server_monitor_log">
+        <input type="submit" value="Get raw" name="server_get_raw_log">
+        <input type="submit" value="Clear" name="server_clear_log">
+        <input type="submit" value="Save" name="server_save_log">
+    </form>
+  </fieldset><br>
+  <fieldset>
+    <legend>Status</legend>
+    <form action="/api" method="post">
+      <input type="submit" value="Monitor" name="server_monitor_status">
+      <input type="submit" value="Reset" name="server_reset_status">
+    </form>
+  </fieldset><br>
+  <fieldset>
+    <legend>Danger zone</legend>
+    <form action="/api" method="post">
+      <input type="submit" value="Restart server" name="server_restart">
+    </form>
+  </fieldset>
+</fieldset>
+</body>
+</html>
