@@ -37,9 +37,9 @@ umg804_config = {
             },
             "action": {
                 "bits": None,
-                "uint16": "random",
-                "uint32": "random",
-                "float32": "random",
+                "uint16": "register",
+                "uint32": "register",
+                "float32": "register",
                 "string": None,
             },
         },

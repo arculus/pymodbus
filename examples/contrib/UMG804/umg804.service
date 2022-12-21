@@ -11,8 +11,8 @@ RestartSec=30s
 StartLimitInterval=500
 
 ExecStart=/home/simulator/umg804/umg804.py
-StandardOutput=append:/home/simulator/umg804/run.log
-StandardError=append:/home/simulator/umg804/runError.log
+StandardOutput=append:/home/simulator/umg804/run_umg804.log
+StandardError=append:/home/simulator/umg804/runError_umg804.log
 
 [Install]
 WantedBy=multi-user.target

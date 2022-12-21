@@ -1,0 +1,18 @@
+[Unit]
+Description=Modbus Vertic RPP simulator
+After=multi-user.target
+
+[Service]
+#Type=forking
+User=simulator
+Require=network.target
+Restart=on-failure
+RestartSec=30s
+StartLimitInterval=500
+
+ExecStart=/home/simulator/umg804/vertiv.py
+StandardOutput=append:/home/simulator/umg804/run_vertiv.log
+StandardError=append:/home/simulator/umg804/runError_vertiv.log
+
+[Install]
+WantedBy=multi-user.target
