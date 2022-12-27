@@ -62,11 +62,15 @@ if not IS_PYTHON2:
     byte2int = lambda b: b
     if PYTHON_VERSION >= (3, 4):
         def is_installed(module):
+            if module == "twisted":
+                return False
             import importlib.util
             found = importlib.util.find_spec(module)
             return found
     else:
         def is_installed(module):
+            if module == "twisted":
+                return False
             import importlib
             found = importlib.find_loader(module)
             return found
