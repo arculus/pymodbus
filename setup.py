@@ -25,13 +25,12 @@ try:
 except ImportError:
     command_classes = {}
 from pymodbus import __version__, __author__, __maintainer__
-from pymodbus.utilities import IS_PYTHON3
 
 CONSOLE_SCRIPTS = [
-            'pymodbus.console=pymodbus.repl.client.main:main'
+            'pymodbus.console=pymodbus.repl.client.main:main',
+            'pymodbus.server=pymodbus.repl.server.main:server'
         ]
-if IS_PYTHON3:
-    CONSOLE_SCRIPTS.append('pymodbus.server=pymodbus.repl.server.main:server')
+
 with open('requirements.txt') as reqs:
     install_requires = [
         line for line in reqs.read().split('\n')
